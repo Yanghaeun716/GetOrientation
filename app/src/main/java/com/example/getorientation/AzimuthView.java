@@ -28,7 +28,7 @@ public class AzimuthView extends View {
         int x0 = cx - bitmap.getWidth()/2;
         int y0 = cy - bitmap.getHeight()/2;
 
-        canvas.rotate(-azimuth, getWidth()/2, getHeight()/2);
+        canvas.rotate(-azimuth, getWidth() /2, getHeight()/2);
 
         canvas.drawBitmap(bitmap, x0, y0, null);
 
